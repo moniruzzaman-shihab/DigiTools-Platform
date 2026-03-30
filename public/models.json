@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "ChatGPT Pro",
+    "description": "Advanced AI assistant for writing, coding, and learning\nHelps automate daily tasks with smart responses",
+    "price": "$20/year",
+    "features": ["AI chat", "Code generation", "Content writing", "Problem solving"],
+    "image": "/products/social-media.png",
+    "status": "Best Seller"
+  },
+  {
+    "id": 2,
+    "title": "Midjourney",
+    "description": "AI image generation tool for creative visuals\nTurn text prompts into high-quality artwork",
+    "price": "$10/mo",
+    "features": ["Text-to-image", "Art styles", "High resolution output", "Creative prompts"],
+    "image": "/products/portfolio.png",
+    "status": "popular"
+  },
+  {
+    "id": 3,
+    "title": "Runway ML",
+    "description": "AI video creation and editing platform\nGenerate cinematic videos using text prompts",
+    "price": "$15/one-time",
+    "features": ["Text-to-video", "AI editing", "Motion tracking", "Green screen"],
+    "image": "./products/operation.png",
+    "status": "New"
+  },
+  {
+    "id": 4,
+    "title": "Jasper AI",
+    "description": "AI marketing and content writing assistant\nCreate blogs, ads, and emails faster",
+    "price": "$39/mo",
+    "features": ["SEO content", "Templates", "Brand voice", "Team tools"],
+    "image": "/products/design-tool.png",
+    "status": "Best Seller"
+  },
+  {
+    "id": 5,
+    "title": "Notion AI",
+    "description": "AI-powered productivity workspace\nOrganize notes, tasks, and documents intelligently",
+    "price": "$10/year",
+    "features": ["Note summarization", "Task automation", "Writing assistant", "Database tools"],
+    "image": "/products/writing_2327400 1.png",
+    "status": "popular"
+  },
+  {
+    "id": 6,
+    "title": "Copy.ai",
+    "description": "AI writing assistant for marketing teams\nGenerate high-quality copy in seconds",
+    "price": "$36/mo",
+    "features": ["Ad copy", "Blog ideas", "Email writing", "Social media posts"],
+    "image": "/products/social-media.png",
+    "status": "New"
+  },
+  {
+    "id": 7,
+    "title": "Synthesia",
+    "description": "AI video creation with virtual avatars\nCreate professional videos without cameras",
+    "price": "$30/year",
+    "features": ["AI avatars", "Text-to-video", "Multi-language", "Templates"],
+    "image": "/products/shopping-cart.png",
+    "status": "popular"
+  },
+  {
+    "id": 8,
+    "title": "Grammarly Premium",
+    "description": "Advanced AI writing assistant\nImprove grammar, tone, and clarity instantly",
+    "price": "$12/one-time",
+    "features": ["Grammar check", "Tone detection", "Plagiarism check", "AI rewriting"],
+    "image": "/products/portfolio.png",
+    "status": "Best Seller"
+  },
+  {
+    "id": 9,
+    "title": "Framer AI",
+    "description": "AI website builder for modern designs\nBuild responsive websites without coding",
+    "price": "$14/mo",
+    "features": ["No-code builder", "AI design", "Animations", "Hosting"],
+    "image": "/products/operation.png",
+    "status": "popular"
+  },
+  {
+    "id": 10,
+    "title": "Descript",
+    "description": "AI-powered audio and video editing tool\nEdit media like editing text documents",
+    "price": "$24/mo",
+    "features": ["Text-based editing", "Voice cloning", "Transcription", "Screen recording"],
+    "image": "/products/design-tool.png",
+    "status": "Best Seller"
+  }
+]
