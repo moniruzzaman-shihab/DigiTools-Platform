@@ -5,7 +5,7 @@ import { Play } from 'lucide-react';
 
 const Banner = () => {
     return (
-        <div className="relative min-h-162.5 flex max-[540px]:flex-col max-[540px]:justify-center items-center overflow-hidden max-[540px]:mx-2">
+        <div className="relative min-h-162.5 flex max-w-11/12 mx-auto max-[540px]:flex-col max-[540px]:justify-center items-center overflow-hidden max-[540px]:mx-2">
             <div className=" mx-auto grid grid-cols-2 max-[540px]:grid-cols-1 gap-10 max-[540px]:gap-6 items-center relative z-10">
                 
                 <div className="space-y-4 max-[540px]:space-y-2">
