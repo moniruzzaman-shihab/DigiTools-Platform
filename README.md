@@ -15,6 +15,7 @@ This project is designed to help users discover powerful digital tools in one pl
 ## 🛠️ Technologies Used
 
 * ⚛️ React (Vite)
+* ⚛️ JavaScript (ES6+)
 * 🎨 Tailwind CSS + DaisyUI
 * 🔥 Lucide React (Icons)
 * 🍞 React Toastify (Notifications)
