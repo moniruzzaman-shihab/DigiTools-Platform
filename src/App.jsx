@@ -5,6 +5,7 @@ import Footer from "./components/Footer"
 import Models from "./components/Models"
 import NavBar from "./components/NavBar"
 import Stat from "./components/Stat"
+import Steps from "./components/Steps"
 
 const getModels = async () => {
   const res = await fetch("/models.json")
@@ -31,6 +32,7 @@ function App() {
       </div>
       {activeTab==="Products" && <Models modelPromise={modelPromise}  carts={carts} setCarts={setCarts}/>}
       {activeTab==="Cart" &&  <Cart  carts={carts}  setCarts={setCarts}/>}
+      <Steps/>
       <Footer />
     </>
   )
