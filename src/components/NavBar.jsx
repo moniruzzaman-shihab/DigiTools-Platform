@@ -1,4 +1,5 @@
 import { ShoppingCart } from "lucide-react";
+import Steps from "./Steps";
 
 const NavBar = ({ carts }) => {
   return (
@@ -37,7 +38,7 @@ const NavBar = ({ carts }) => {
           </span>
 
           <button className="hidden md:block bg-purple-500 hover:bg-purple-600 text-white px-4 py-1 rounded-full">
-            Get Started
+           <a href="#steps">Get Started</a> 
           </button>
         </div>
       </div>

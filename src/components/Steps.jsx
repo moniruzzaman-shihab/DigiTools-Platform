@@ -24,7 +24,7 @@ const steps = [
 
 const Steps = () => {
   return (
-    <div className="bg-purple-100 py-16">
+    <div id="steps" className="bg-purple-100 py-16">
       
      
       <div className="text-center mb-10">
