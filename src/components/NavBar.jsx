@@ -3,14 +3,14 @@ import Steps from "./Steps";
 
 const NavBar = ({ carts }) => {
   return (
-    <nav className="w-full shadow-md bg-white">
-      <div className="max-w-7xl mx-auto px-6 py-3 flex items-center justify-between">
+    <nav className="w-full shadow-md bg-white max-[540px]:mb-3 max-[540px]:mx-2">
+      <div className="max-w-7xl mx-auto px-6 max-[540px]:px-4 py-3 max-[540px]:py-2 flex max-[540px]:flex-col items-center justify-between max-[540px]:justify-center">
 
         <div className="text-purple-500 font-bold text-2xl">
           DigiTools
         </div>
 
-        <ul className="md:flex gap-6 text-lg">
+        <ul className="md:flex gap-6  text-lg max-[540px]:text-sm">
           <li><a className="hover:text-purple-500 cursor-pointer">Products</a></li>
           <li><a className="hover:text-purple-500 cursor-pointer">Features</a></li>
           <li><a className="hover:text-purple-500 cursor-pointer">Pricing</a></li>
@@ -19,7 +19,7 @@ const NavBar = ({ carts }) => {
         </ul>
 
        
-        <div className="flex items-center gap-4">
+        <div className="flex max-[540px]:flex-col max-[540px]:text-sm items-center max-[540px]:justify-center gap-4 max-[540px]:gap-2">
 
           
           <div className="relative">
@@ -33,11 +33,11 @@ const NavBar = ({ carts }) => {
             )}
           </div>
 
-          <span className="hidden md:block cursor-pointer hover:text-purple-500">
+          <span className=" md:block cursor-pointer hover:text-purple-500">
             LogIn
           </span>
 
-          <button className="hidden md:block bg-purple-500 hover:bg-purple-600 text-white px-4 py-1 rounded-full">
+          <button className=" md:block bg-purple-500 hover:bg-purple-600 text-white px-4 py-1 rounded-full">
            <a href="#steps">Get Started</a> 
           </button>
         </div>

@@ -26,9 +26,9 @@ function App() {
       <Banner />
       <Stat/>
       
-      <div className="tabs  justify-center bg-white my-12 border-none">
-        <input type="radio" name="my_tabs_1" className="tab rounded-full w-30 checked:bg-purple-500 checked:text-white" aria-label="Products"  defaultChecked onClick={()=>setActiveTab("Products")} />
-        <input type="radio" name="my_tabs_1" className="tab rounded-full w-30 checked:bg-purple-500 checked:text-white" aria-label={`Cart (${carts.length})`} onClick={()=>setActiveTab("Cart")}  />
+      <div className="tabs  justify-center bg-white my-12 max-[540px]:my-8 border-none">
+        <input type="radio" name="my_tabs_1" className="tab rounded-full w-30 max-[540px]:w-20 checked:bg-purple-500 checked:text-white" aria-label="Products"  defaultChecked onClick={()=>setActiveTab("Products")} />
+        <input type="radio" name="my_tabs_1" className="tab rounded-full w-30 max-[540px]:w-20 checked:bg-purple-500 checked:text-white" aria-label={`Cart (${carts.length})`} onClick={()=>setActiveTab("Cart")}  />
         
       </div>
       {activeTab==="Products" && <Models modelPromise={modelPromise}  carts={carts} setCarts={setCarts}/>}
