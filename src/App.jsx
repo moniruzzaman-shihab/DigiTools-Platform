@@ -6,6 +6,7 @@ import Models from "./components/Models"
 import NavBar from "./components/NavBar"
 import Stat from "./components/Stat"
 import Steps from "./components/Steps"
+import Pricing from "./components/Pricing"
 
 const getModels = async () => {
   const res = await fetch("/models.json")
@@ -33,6 +34,7 @@ function App() {
       {activeTab==="Products" && <Models modelPromise={modelPromise}  carts={carts} setCarts={setCarts}/>}
       {activeTab==="Cart" &&  <Cart  carts={carts}  setCarts={setCarts}/>}
       <Steps/>
+      <Pricing/>
       <Footer />
     </>
   )
