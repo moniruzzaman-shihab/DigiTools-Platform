@@ -80,10 +80,12 @@ const Pricing = () => {
               )}
 
               
-              <h3 className="text-lg font-semibold">{plan.title}</h3>
+              <h3 className={`text-lg font-semibold  ${
+                  isPopular ? "text-white" : "text-black-500"
+                }`}>{plan.title}</h3>
               <p
                 className={`text-sm mt-1 ${
-                  isPopular ? "text-gray-200" : "text-gray-500"
+                  isPopular ? "text-white" : "text-gray-500"
                 }`}
               >
                 {plan.subtitle}
@@ -114,7 +116,7 @@ const Pricing = () => {
                     />
                     <span
                       className={
-                        isPopular ? "text-gray-200" : "text-gray-600"
+                        isPopular ? "text-white" : "text-gray-600"
                       }
                     >
                       {feature}
