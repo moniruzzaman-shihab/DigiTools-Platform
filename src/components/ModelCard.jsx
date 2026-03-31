@@ -66,7 +66,7 @@ const ModelCard = ({ model ,carts, setCarts }) => {
       
       <button
         onClick={handleBuyBtn}
-        className="w-full btn btn-primary rounded-full text-white"
+        className="max-w-full btn btn-primary rounded-full text-white"
       >
         {isBought ? "Added to Cart" : "Buy Now"}
       </button>

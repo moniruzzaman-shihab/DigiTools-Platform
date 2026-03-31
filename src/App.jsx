@@ -4,6 +4,7 @@ import Cart from "./components/Cart"
 import Footer from "./components/Footer"
 import Models from "./components/Models"
 import NavBar from "./components/NavBar"
+import Stat from "./components/Stat"
 
 const getModels = async () => {
   const res = await fetch("/models.json")
@@ -21,8 +22,9 @@ function App() {
     <>
       <NavBar carts={carts} />
       <Banner />
+      <Stat/>
       
-      <div className="tabs  justify-center bg-white my-4 border-none">
+      <div className="tabs  justify-center bg-white my-12 border-none">
         <input type="radio" name="my_tabs_1" className="tab rounded-full w-30 checked:bg-purple-500 checked:text-white" aria-label="Products"  defaultChecked onClick={()=>setActiveTab("Products")} />
         <input type="radio" name="my_tabs_1" className="tab rounded-full w-30 checked:bg-purple-500 checked:text-white" aria-label={`Cart (${carts.length})`} onClick={()=>setActiveTab("Cart")}  />
         
